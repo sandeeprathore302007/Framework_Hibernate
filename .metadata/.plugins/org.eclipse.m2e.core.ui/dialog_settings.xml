@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sande\Desktop\Framework\onetomany_bi\src\main\java\org\jsponetomany_bi\dao\Company_Employee_Dao.java"/>
+			<item value="C:\Users\sande\Desktop\Framework\onetomany_uni\src\main\java\org\jsp\onetomany_uni\dao\Flipkart_Items_Controller.java"/>
 			<item value="C:\Users\sande\Desktop\Framework\onetomany_bi\src\main\java\org\jsponetomany_bi\dto\Company.java"/>
 			<item value="C:\Users\sande\Desktop\Framework\onetomany_uni\src\main\java\org\jsp\onetomany_uni\dao\Flipkart_Items_Dao.java"/>
 			<item value="C:\Users\sande\Desktop\Framework\onetoonebi_library\src\main\java\org\jsp\onetoonebi_library\contoller\Book_Borrow_Contoller.java"/>
@@ -63,6 +65,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="manytone_uni"/>
+			<item value="onetomanypro2_bi"/>
 			<item value="onetomanypro1_uni"/>
 			<item value="onetomany_bi"/>
 			<item value="onetomany_uni"/>

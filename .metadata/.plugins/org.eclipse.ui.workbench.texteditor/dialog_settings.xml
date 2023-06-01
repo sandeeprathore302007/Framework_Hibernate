@@ -6,6 +6,7 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
 			<item value="package org.jsp.onetomanypro1_uni.dao;"/>
 			<item value="package org.jsponetomany_bi.dao;"/>
