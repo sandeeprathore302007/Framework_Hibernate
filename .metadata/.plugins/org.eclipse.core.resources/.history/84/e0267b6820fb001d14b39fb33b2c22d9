@@ -1,0 +1,11 @@
+package org.jsp.onetoonebi_library.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Book {
+	//id, title, author, publication
+	
+	
+
+}

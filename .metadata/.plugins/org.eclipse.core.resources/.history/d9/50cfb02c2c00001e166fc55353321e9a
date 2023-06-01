@@ -1,0 +1,12 @@
+package org.jsp.manytone_uni.dto;
+
+public class Employee {
+	
+	private int eid ; 
+	private String ename ; 
+	private double sal ;
+	
+	private Department department ;
+	
+
+}

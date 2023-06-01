@@ -1,0 +1,12 @@
+package org.jsponetomany_bi.dto;
+
+public class Employee {
+	
+	private int eid ;
+	private String ename ;
+	private String address ;
+	private long mno ; 
+	
+	private Company company;
+
+}

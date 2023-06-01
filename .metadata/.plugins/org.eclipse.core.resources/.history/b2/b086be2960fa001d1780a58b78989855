@@ -1,0 +1,40 @@
+package org.jsp.onetonebi_ticket.controller;
+
+import org.jsp.onetonebi_ticket.dao.Person_Ticket_Dao;
+import org.jsp.onetonebi_ticket.dto.Person;
+import org.jsp.onetonebi_ticket.dto.Ticket;
+
+public class Person_Ticket_Controller {
+	
+	public static void main(String[] args) {
+		
+		Person person = new Person() ; 
+		
+	    person.setPnr(1422);
+	    person.setName("Pradnya");
+	    person.setAddress("khopoli");
+	    
+	    
+		
+		
+		
+		Ticket ticket = new  Ticket() ; 
+		
+		
+		ticket.setSeat(34);
+		ticket.setBstation("dadar");
+		ticket.setDstation("Bikaner");
+		ticket.setPerson(person);
+		person.setTicket(ticket);
+		ticket.setTrain("LTT Gorakhpur");
+		
+		
+		Person_Ticket_Dao dao  = new Person_Ticket_Dao()  ; 
+		
+		dao.saveDetails(person);
+		dao.saveTicket(ticket);
+		
+		
+	}
+
+}

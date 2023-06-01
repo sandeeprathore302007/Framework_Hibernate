@@ -1,0 +1,5 @@
+package org.jsp.onetomanypro2_bi.dto;
+
+public class Patient {
+
+}

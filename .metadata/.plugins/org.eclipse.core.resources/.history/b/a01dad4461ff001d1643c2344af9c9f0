@@ -1,0 +1,29 @@
+package org.jsponetomany_bi.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.jsponetomany_bi.dto.Company;
+import org.jsponetomany_bi.dto.Employee;
+
+public class Company_Employee_Controller {
+	public static void main(String[] args) {
+	Company company = new Company();
+	
+	company.setId(101);
+	company.setName("Tcs");
+	company.setAddress("Mumbai");
+	company.setPhno(234522);
+	
+	Employee employee = new Employee() ; 
+	
+	employee.setEid(1001);
+	employee.setEname("Pradnya");
+	employee.setAddress("Thane");
+	employee.setMno(4444);
+	
+	
+	List<Employee> list = new ArrayList<Employee>();
+	}
+
+}

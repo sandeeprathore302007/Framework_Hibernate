@@ -1,0 +1,5 @@
+package org.jsp.manytone_uni.dao;
+
+public class Department_Employee_Dao {
+
+}

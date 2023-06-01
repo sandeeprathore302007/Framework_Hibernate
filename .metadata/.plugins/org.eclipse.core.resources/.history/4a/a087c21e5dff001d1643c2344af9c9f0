@@ -1,0 +1,51 @@
+package org.jsponetomany_bi.dto;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+
+
+@Entity
+public class Employee {
+	@Id
+	private int eid ;
+	private String ename ;
+	private String address ;
+	private long mno ; 
+	@ManyToOne(cascade = CascadeType.ALL)
+	private Company company;
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public long getMno() {
+		return mno;
+	}
+	public void setMno(long mno) {
+		this.mno = mno;
+	}
+	public Company getCompany() {
+		return company;
+	}
+	public void setCompany(Company company) {
+		this.company = company;
+	}
+	
+
+}

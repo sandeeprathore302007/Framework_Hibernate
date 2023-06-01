@@ -1,0 +1,37 @@
+package org.jsp.onetoonebi_Emp_Dept.controller;
+
+import org.jsp.onetoonebi_Emp_Dept.dao.Emp_Dept_Dao;
+import org.jsp.onetoonebi_Emp_Dept.dto.Department;
+import org.jsp.onetoonebi_Emp_Dept.dto.Employee;
+
+public class Emp_Dept_Controller {
+	
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.setId(124);
+		employee.setName("kohn");
+		employee.setDesignation("DevOps Engineer");
+		employee.setSalary(25030.45);
+		
+		
+		
+		
+		Department department = new Department() ; 
+		
+		department.setId(4);
+		department.setName("manager");
+		department.setLocation("nashik");
+		
+		employee.setDepartment(department);
+		//department.setEmployee(employee);
+		
+		Emp_Dept_Dao dao = new Emp_Dept_Dao();
+		
+		//dao.saveEmpDetails(employee);
+		//dao.findDetails(121);
+		//dao.deleteRecord(124);
+		dao.findAll();
+		
+	}
+
+}

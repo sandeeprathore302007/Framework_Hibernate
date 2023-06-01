@@ -1,0 +1,59 @@
+package org.jsp.onetomany_uni.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
+import org.jsp.onetomany_uni.dto.Flipkart;
+import org.jsp.onetomany_uni.dto.Items;
+
+public class Flipkart_Items_Controller {
+	
+	public static void main(String[] args) {
+		Flipkart flipkart = new Flipkart();
+		flipkart.setId(0);
+		flipkart.setName("Max");
+		flipkart.setAddress("USA");
+		flipkart.setEmail("Maxime@gmail.com");
+		flipkart.setCno(23445232);
+		
+		
+		
+		 
+		 
+		
+		
+		
+		Items items1 =  new Items();
+		items1.setId(101);
+		items1.setName("Bat");
+		items1.setPrice(900);
+		items1.setQty(2);
+		
+		
+		Items items2 = new Items();
+		items2.setId(102);
+		items2.setName("Ball");
+		items2.setPrice(250);
+		items2.setQty(5);
+		
+		Items items3 = new Items();
+		items3.setId(103);
+		items3.setName("Stump");
+		items3.setPrice(300);
+		items3.setQty(4);
+		
+		
+	List<Items> list = 	new ArrayList<Items>();
+	list.add(items1);
+	list.add(items2);
+	list.add(items3);
+		
+		
+		
+		
+	}
+
+	
+
+}

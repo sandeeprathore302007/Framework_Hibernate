@@ -1,0 +1,11 @@
+package org.jsp.onetomany_uni.dto;
+
+public class Items {
+	
+	private int id ; 
+	private String name ; 
+	private String price ; 
+	private int qty ;
+	
+
+}

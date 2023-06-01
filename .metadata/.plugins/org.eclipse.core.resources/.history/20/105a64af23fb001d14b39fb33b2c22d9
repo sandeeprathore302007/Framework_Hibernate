@@ -1,0 +1,30 @@
+package org.jsp.onetoonebi_library.contoller;
+
+ import org.jsp.onetoonebi_library.dto.*;
+
+import org.jsp.onetoonebi_library.dto.Borrower;
+
+public class Book_Borrow_Contoller {
+	
+	public static void main(String[] args) {
+		
+		
+		Book book = new  Book();
+		
+		book.setId(01723);
+		book.setAuthor("George RR Martin");
+		book.setPublication("Epic Fantasy Novels ");
+		
+		
+		
+		
+		
+		Borrower borrower = new Borrower();
+		
+		borrower.setId(121);
+		borrower.setName("Sandeep);
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package org.jsponetomany_bi.dto;
+
+public class Employee {
+
+}

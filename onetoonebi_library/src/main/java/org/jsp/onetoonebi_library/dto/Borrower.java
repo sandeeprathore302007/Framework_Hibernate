@@ -1,0 +1,56 @@
+package org.jsp.onetoonebi_library.dto;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+@Entity
+public class Borrower {
+	@Id 
+	private int id ;
+	private String name ; 
+	private long contact ; 
+	private String address;
+	@OneToOne(cascade = CascadeType.ALL, mappedBy = "borrower")
+	private Book book;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public long getContact() {
+		return contact;
+	}
+	public void setContact(long contact) {
+		this.contact = contact;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public Book getBook() {
+		return book;
+	}
+	public void setBook(Book book) {
+		this.book = book;
+	}
+	@Override
+	public String toString() {
+		return "Borrower [id=" + id + ", name=" + name + ", contact=" + contact + ", address=" + address + ", book="
+				+ book + "]";
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package org.jsp.onetoonebi_Emp_Dept.dto;
+
+public class Employee {
+	
+	private int id ;
+	private String name ; 
+	private String designation ;
+	private double salary ;
+	
+	private Department department ;
+
+}

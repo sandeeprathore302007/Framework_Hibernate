@@ -1,0 +1,34 @@
+package org.jsp.onetomany_uni.dao;
+
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
+import org.jsp.onetomany_uni.dto.Flipkart;
+import org.jsp.onetomany_uni.dto.Items;
+
+public class Flipkart_Items_Controller {
+	
+	public static void main(String[] args) {
+		Flipkart flipkart = new Flipkart();
+		flipkart.setId(0);
+		flipkart.setName("Max");
+		flipkart.setAddress("USA");
+		flipkart.setEmail("Maxime@gmail.com");
+		flipkart.setCno(23445232);
+		
+		
+		
+		Items items = new Items();
+		
+		
+		
+		Items items1 =  new Items();
+		
+		
+		Items items2 = new Items();
+		
+		
+		
+	}
+
+	
+
+}

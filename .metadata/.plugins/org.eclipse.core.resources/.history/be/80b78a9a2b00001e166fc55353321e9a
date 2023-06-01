@@ -1,0 +1,16 @@
+package org.jsp.manytone_uni.dto;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+public class Department { 
+	
+@Id
+private int id;
+private String name ; 
+private long phno ; 
+@ManyToOne(cascade = CascadeType.ALL)
+private Employee employee;
+
+}

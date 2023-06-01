@@ -1,0 +1,48 @@
+package org.jsp.onetoonebi_library.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Book {
+	//id, title, author, publication
+	
+ private int id ; 
+ private String title ; 
+ private String author ; 
+ private String publication ;
+ private Borrower borrower ;
+ public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getTitle() {
+	return title;
+}
+public void setTitle(String title) {
+	this.title = title;
+}
+public String getAuthor() {
+	return author;
+}
+public void setAuthor(String author) {
+	this.author = author;
+}
+public String getPublication() {
+	return publication;
+}
+public void setPublication(String publication) {
+	this.publication = publication;
+}
+public Borrower getBorrower() {
+	return borrower;
+}
+public void setBorrower(Borrower borrower) {
+	this.borrower = borrower;
+}
+
+	
+	
+
+}
